@@ -107,7 +107,7 @@
         b: "Rick Riordan",
         c: "Rick Astley",
       },
-      correctAnswer: "a"
+      correctAnswer: "c"
     }
   ];
 
