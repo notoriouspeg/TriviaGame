@@ -74,10 +74,10 @@
   const submitButton = document.getElementById("submit");
   const myQuestions = [
     {
-      question: "Which 80's band's members were named Simon, Nick, John, Andy and Roger??",
+      question: "Which 80's band's members were named Simon, Nick, John, Andy and Roger?",
       answers: {
         a: "Wham!",
-        b: "Scriti Politi",
+        b: "Scritti Politti",
         c: "Duran Duran"
       },
       correctAnswer: "c"
@@ -97,6 +97,15 @@
         a: "B52's",
         b: "Blondie",
         c: "Sting",
+      },
+      correctAnswer: "a"
+    },
+    { 
+      question: "Who is 'Never gonna give you up, Never gonna let you down, Never gonna run around and desert you, Never gonna make you cry, Never gonna say goodbye, Never gonna tell a lie and hurt you?'",
+      answers: {
+        a: "Rick Springfield",
+        b: "Rick Riordan",
+        c: "Rick Astley",
       },
       correctAnswer: "a"
     }
