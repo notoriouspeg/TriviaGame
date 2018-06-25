@@ -3,25 +3,43 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Trivia Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
+    <style>
+    #quiz {
+        color: blue
+    }
+    body {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    background: url("music.jfif");
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
+#quiz {
+    background-color: chartreuse;
+    padding: 10px;
+}
+h1 {
+
+background-color:fuchsia;
+padding: 10px;    
+}
+    </style>
 </head>
 <body>
     
 <!-- <button id = "start">Start</button> -->
+<h1> Do you know your 80's music? Take this quiz and find out!</h1>
 <p id = "time"></p>
 <div id="quiz"></div>
 <button id="submit">Submit Quiz</button>
 <div id="results"></div>
-
-
-
-
-
 
     <script src="assets/javascript/app.js"></script>
 </body>

@@ -1,6 +1,6 @@
 (function() {
 
-
+// The timer worked but doesn't any longer so I commented it out.
 //     var time = 5;
 // var timer;
 
@@ -22,6 +22,7 @@
 //     }
 //     })
     
+
   function buildQuiz() {
 
     const output = [];
@@ -101,7 +102,7 @@
       correctAnswer: "a"
     },
     { 
-      question: "Who is 'Never gonna give you up, Never gonna let you down, Never gonna run around and desert you, Never gonna make you cry, Never gonna say goodbye, Never gonna tell a lie and hurt you?'",
+      question: "Who is 'Never gonna give you up, Never gonna let you down, Never gonna run around and desert you...'",
       answers: {
         a: "Rick Springfield",
         b: "Rick Riordan",
